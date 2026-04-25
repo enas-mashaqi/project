@@ -16,11 +16,12 @@
 </head>
 
 <body>
-    <header class=" mx-auto max-sm:px-[20px] md: px-[40px] py-[16px] row  justify-between   rounded-full bg-slate-950">
+    <header
+        class="fixed w-full top-[24px] z-50 max-w-7xl mx-auto max-sm:px-[20px] lg: px-[40px] py-[16px] row  justify-between   rounded-full bg-slate-950 opacity-60">
 
         <p class="text-highlights  text-2xl italic font-tinos lg:text-nowrap">ETHEREAL NAVIGATOR</p>
 
-        <ul class="hidden md:flex gap-[38px]   justify-between font-medium leading-6">
+        <ul class="hidden lg:flex gap-[38px]   justify-between font-medium leading-6">
             <li><a href="#" class="text-sky-300 font-bold hoverA border-b-2">Home</a></li>
             <li><a href="#" class="hoverA">Destinatins</a></li>
             <li><a href="#" class="hoverA">Tours</a></li>
@@ -33,6 +34,25 @@
         <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton">Book Exclusive Trip</button>
 
     </header>
+    <main>
+        <section class=" hero text-center h-[100vh] flex justify-center items-center ">
+            <img src="./assets/image/hero.webp" alt="heroImage" class="relative w-full h-full" />
+            <div class=" absolute ">
+                <p class="mt-[187px] font-medium tracking-[2.8px] leading-[20px] text-primaryAccent">THE ART OF REFINED
+                    DISCOVERY</p>
+                <h1 class="italic max-w-3xl text-center  font-bold text-5xl  md:text-7xl lg:text-8xl my-[16px]">Beyond the <span
+                        class="text-primaryAccent font-tinos">Horizon</span></h1>
+                <div class="flex max-md:flex-col justify-center items-center gap-[24px]">
+                    <button class="capitalize font-bold bg-atmosphiricAccent rounded-full px-[40px] py-[16px]">explore
+                        collections</button>
+                    <button class="capitalize outline-1 rounded-full font-bold px-[40px] py-[16px] ">curate my
+                        journey</button>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
 </body>
 
 </html>

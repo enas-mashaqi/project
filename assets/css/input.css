@@ -8,6 +8,8 @@
     --color-secondaryBackground:#0B0B0B;
     --color-primaryBackground:#0F172A;
     --color-highlights:#FACC15;
+    --color-primaryAccent:#0EA5E9;
+    --color-atmosphiricAccent: #7C3AED;
     --breakpoint-xs:640px;
 }
 
