@@ -32,3 +32,5 @@
 @utility hoverButton{
     @apply hover:scale-110 inline-block transition-all duration-300 cursor-pointer;
 }
+@utility hoverImage{
+@apply transition-transform duration-600 group-hover:scale-110;}

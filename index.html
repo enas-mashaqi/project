@@ -40,55 +40,90 @@
             <div class=" absolute  ">
                 <p class=" font-medium tracking-[2.8px] leading-[20px] text-primary">THE ART OF REFINED
                     DISCOVERY</p>
-                 
-                <h1 class="italic max-w-3xl text-center  font-bold text-5xl  md:text-7xl lg:text-8xl my-[33px]">Beyond the <span
-                        class="text-primary font-tinos">Horizon</span></h1>
-                     
+
+                <h1 class="italic max-w-3xl text-center  font-bold text-5xl  md:text-7xl lg:text-8xl my-[33px]">Beyond
+                    the <span class="text-primary font-tinos">Horizon</span></h1>
+
                 <div class="flex max-md:flex-col justify-center items-center gap-[24px]">
-                    <button class="capitalize font-bold bg-gradient-to-r from-primaryAccent to-purple-400 backdrop-blur-md rounded-full px-[40px] py-[16px] hoverButton">explore
+                    <button
+                        class="capitalize font-bold bg-gradient-to-r from-primaryAccent to-purple-400 backdrop-blur-md rounded-full px-[40px] py-[16px] hoverButton">explore
                         collections</button>
-                    <button class="capitalize outline-1 rounded-full font-bold px-[40px] py-[16px] hoverButton  hover:bg-white/35  ">curate my
+                    <button
+                        class="capitalize outline-1 rounded-full font-bold px-[40px] py-[16px] hoverButton  hover:bg-white/35  ">curate
+                        my
                         journey</button>
                 </div>
             </div>
         </section>
 
-        <section class="searchBar relative -mt-24 z-20 px-6  ">
-        <div class=" max-w-5xl mx-auto px-6  py-[16px] bg-gradient-to-b from-teal-700/50 via-teal-700/50 to-black/50 backdrop-opacity-100 backdrop-blur-3xl rounded-[2rem] border border-white/10 shadow-2xl">
-            <div class="grid w-full grid-cols-1 md:grid-cols-4 gap-[16px] ">
-            <div class="flex flex-col justify-center md:border-e-[1px] border-white/10  ps-[6px] ">
-                <label class="uppercase text-[12px]">destination</label>
-                <div class="flex items-center gap-[10px] ">
-                    <span class="py-[9px]"><img src="./assets/image/searchBar/locationcon.svg"/></span>
-                    <input type="text" placeholder="Where to next?" class="py-[12px]  "/>
+        <section class="searchBar relative -mt-24 z-20 px-6 ">
+            <div
+                class=" max-w-5xl mx-auto px-6  py-[16px] bg-gradient-to-b from-teal-700/50 via-teal-700/50 to-black/50 backdrop-opacity-100 backdrop-blur-3xl rounded-[2rem] border border-white/10 shadow-2xl">
+                <div class="grid w-full grid-cols-1 md:grid-cols-4 gap-[16px] ">
+                    <div class="flex flex-col justify-center md:border-e-[1px] border-white/10  ps-[6px] ">
+                        <label class="uppercase text-[12px]">destination</label>
+                        <div class="flex items-center gap-[10px] ">
+                            <span class="py-[9px]"><img src="./assets/image/searchBar/locationcon.svg" /></span>
+                            <input type="text" placeholder="Where to next?" class="py-[12px]  " />
+                        </div>
+                    </div>
+                    <div class=" flex flex-col justify-center md:border-e-[1px] border-white/10  ps-[6px]">
+                        <label class="uppercase text-[12px]">experinence type </label>
+                        <div class="flex items-center gap-[10px] ">
+                            <span class="py-[9px]"><img src="./assets/image/searchBar/magicIcon.svg" /></span>
+                            <select class="py-[12px]">
+                                <option class="bg-black ">Private island</option>
+                                <option class="bg-black">Ski chalet</option>
+                                <option class="bg-black">Safari suite</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center ps-[6px]">
+                        <label class="uppercase text-[12px]">travelers</label>
+                        <div class="flex items-center gap-[10px]">
+                            <span class="py-[9px]"><img src="./assets/image/searchBar/usersIcon.svg" /></span>
+                            <input type="text" placeholder="Guests" class="py-[12px]" />
+                        </div>
+                    </div>
+                    <div class="">
+                        <button
+                            class="bg-gradient-to-r from-secondaryAccent to-highlights py-[36.5px] px-[68px] rounded-2xl flex justify-center  items-center w-full h-full gap-2 font-extrabold hoverButton">
+                            <span><img src="./assets/image/searchBar/searchIcon.svg" /> </span>
+                            <span class="capitalize">discover</span>
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class=" flex flex-col justify-center md:border-e-[1px] border-white/10  ps-[6px]">
-                <label class="uppercase text-[12px]">experinence type </label>
-                <div class="flex items-center gap-[10px] ">
-                    <span class="py-[9px]"><img src="./assets/image/searchBar/magicIcon.svg"/></span>
-                    <select class="py-[12px]">
-                        <option class="bg-black " >Private island</option>
-                        <option class="bg-black">Ski chalet</option>
-                        <option class="bg-black">Safari suite</option>
-                    </select>
+        </section>
+
+        <section class="featuredCountries py-[128px] px-[40px] bg-[#141414] ">
+            <div>
+                <h2 class="capitalize text-[38px] font-serif md:text-[48px] leading-[48px] mb-[16px]">curated
+                    territories</h2>
+                <p class=" text-[18px] text-[#C6C6CD] leading-[28px] mb-[64px]">Hand-selected sovereign realms where
+                    luxury meets
+                    ancestral heritage.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-[24px] h-[800px]">
+                <div class="md:col-span-8 w-full rounded-4xl overflow-hidden group ">
+                    <img src="./assets/image/featuredContries/maldives.png" alt="maldives"
+                        class="h-full w-full   hoverImage" />
+                </div>
+                <div class="md:col-span-4 w-full rounded-4xl  overflow-hidden group">
+                    <img src="./assets/image/featuredContries/italy.png" alt="italy"
+                        class="h-full w-full   hoverImage " />
+                </div>
+
+                <div class="md:col-span-4 w-full rounded-4xl overflow-hidden group">
+                    <img src="./assets/image/featuredContries/japan.png" alt="japan"
+                        class="h-full w-full hoverImage " />
+                </div>
+                <div class="md:col-span-8 w-full rounded-4xl overflow-hidden group">
+
+                    <img src="./assets/image/featuredContries/switzerLand.png" alt="switzerLand"
+                        class="h-full w-full   hoverImage" />
                 </div>
             </div>
-            <div class="flex flex-col justify-center ps-[6px]" >
-                <label class="uppercase text-[12px]">travelers</label>
-                <div class="flex items-center gap-[10px]">
-                    <span class="py-[9px]"><img src="./assets/image/searchBar/usersIcon.svg"/></span>
-                    <input type="text" placeholder="Guests" class="py-[12px]"/>
-                </div>
-            </div>
-            <div class="">
-               <button class="bg-gradient-to-r from-secondaryAccent to-highlights py-[36.5px] px-[68px] rounded-2xl flex justify-center  items-center w-full h-full gap-2 font-extrabold hoverButton">
-                <span><img src="./assets/image/searchBar/searchIcon.svg"/> </span>
-                <span class="capitalize">discover</span>
-            </button>
-            </div>
-        </div>
-        </div>
         </section>
     </main>
 </body>
