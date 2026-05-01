@@ -17,7 +17,7 @@
 @layer base{
     body{
         font-family: var(--font-manrope);
-        color: white;
+        color: #E5E2E1;
         background-color: var(--color-secondaryBackground);
     }
 }
