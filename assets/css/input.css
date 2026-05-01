@@ -6,7 +6,7 @@
     --font-manrope: "Manrope";
     --font-tinos: "Tinos";
     --color-secondaryBackground:#0B0B0B;
-    --color-primaryBackground:#0F172A;
+    --color-primaryBackground:#020c23;
     --color-highlights:#FACC15;
     --color-primaryAccent:#80d1f6;
      --color-secondaryAccent:#F97316;
@@ -25,7 +25,9 @@
 @utility row{
     @apply flex items-center;
 }
-
+@utility hoverAcolor{
+    @apply hover:text-primary inline-block transition-all duration-300;
+}
 @utility hoverA{
     @apply hover:scale-110 inline-block transition-all duration-300;
 }
