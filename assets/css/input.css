@@ -11,6 +11,8 @@
     --color-primaryAccent:#80d1f6;
      --color-secondaryAccent:#F97316;
     --color-atmosphiricAccent: #7C3AED;
+    --color-primaryGray: #1e1e1e;
+    --color-secondaryGray: #2A2A2A;
     --breakpoint-xs:640px;
 }
 
@@ -34,5 +36,8 @@
 @utility hoverButton{
     @apply hover:scale-110 inline-block transition-all duration-300 cursor-pointer;
 }
+@utility hoverButtonBorder{
+    @apply border-transparent  hover:border-primaryAccent transition-all duration-300;
+}
 @utility hoverImage{
-@apply transition-transform duration-600 group-hover:scale-110;}
+@apply transition-transform duration-600 group-hover:scale-107;}

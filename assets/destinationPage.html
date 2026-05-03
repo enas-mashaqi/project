@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,39 +14,261 @@
         rel="stylesheet">
     <link href="../assets/css/output.css" rel="stylesheet" />
 </head>
+
 <body>
+
     <body>
-    <header
-        class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-10 py-4 max-w-7xl mx-auto rounded-full bg-slate-950/60 backdrop-blur-[20px]">
+        <header
+            class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-10 py-4 max-w-7xl mx-auto rounded-full bg-slate-950/60 backdrop-blur-[20px]">
 
-        <p class="text-highlights  text-2xl italic font-tinos lg:text-nowrap">ETHEREAL NAVIGATOR</p>
+            <p class="text-highlights  text-2xl italic font-tinos lg:text-nowrap">ETHEREAL NAVIGATOR</p>
 
-        <ul class="hidden lg:flex gap-[38px]   justify-between font-medium leading-6">
-            <li><a href="#" class="hoverA">Home</a></li>
-            <li><a href="#" class="text-sky-300 font-bold hoverA border-b-2">Destinatins</a></li>
-            <li><a href="#" class="hoverA">Tours</a></li>
-            <li><a href="#" class="hoverA">Offers</a></li>
-            <li><a href="#" class="hoverA">Services</a></li>
-            <li><a href="#" class="hoverA">Blog</a></li>
-            <li><a href="#" class="hoverA">Contact</a></li>
-        </ul>
+            <ul class="hidden lg:flex gap-[38px]   justify-between font-medium leading-6">
+                <li><a href="#" class="hoverA">Home</a></li>
+                <li><a href="#" class="text-sky-300 font-bold hoverA border-b-2">Destinatins</a></li>
+                <li><a href="#" class="hoverA">Tours</a></li>
+                <li><a href="#" class="hoverA">Offers</a></li>
+                <li><a href="#" class="hoverA">Services</a></li>
+                <li><a href="#" class="hoverA">Blog</a></li>
+                <li><a href="#" class="hoverA">Contact</a></li>
+            </ul>
 
-        <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton">Book Exclusive Trip</button>
+            <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton">Book Exclusive Trip</button>
 
-    </header>
-    <main class="min-h-screen">
-              <section class=" hero  text-center  h-[614px] overflow-hidden ">
-              
-            <img src="../assets/image/destinationP/Luxury-travel-destination.webp" alt="heroImage" class="relative w-full h-full opacity-60" />
-            <div class=" absolute  top-[220px] sm:top-[280px] md:top-[300px] lg:top-[336px] left-0 text-left flex flex-col gap-[18px] max-sm:gap-[10px] pl-[24px]">
-                <p class=" font-medium tracking-[2.8px] leading-[20px] text-primary">UNCHARTED TERRITORIES</p>
+        </header>
+        <main class="min-h-screen">
+            <section class=" hero  text-center  h-[614px] overflow-hidden ">
 
-                <h1 class=" font-serif font-bold leading-[72px]  text-3xl sm:text-5xl lg:text-7xl md:text-6xl  ">Ethereal Destinations</h1>
+                <img src="../assets/image/destinationP/Luxury-travel-destination.webp" alt="heroImage"
+                    class="relative w-full h-full opacity-60" />
+                <div
+                    class=" absolute  top-[220px] sm:top-[280px] md:top-[300px] lg:top-[336px] left-0 text-left flex flex-col gap-[18px] max-sm:gap-[10px] pl-[24px]">
+                    <p class=" font-medium tracking-[2.8px] leading-[20px] text-primary">UNCHARTED TERRITORIES</p>
 
-               <p class="max-w-3xl text-[20px] leading-7 ">Curated escapes for the discerning traveler. Explore our hand-picked collection of the world's most evocative landscapes and private retreats.</p>
-            </div>
-            
-        </section>
-    </main>
-</body> 
+                    <h1 class=" font-serif font-bold leading-[72px]  text-3xl sm:text-5xl lg:text-7xl md:text-6xl  ">
+                        Ethereal Destinations</h1>
+
+                    <p class="max-w-3xl text-[20px] leading-7 ">Curated escapes for the discerning traveler. Explore our
+                        hand-picked collection of the world's most evocative landscapes and private retreats.</p>
+                </div>
+
+            </section>
+            <section class="mainContentArea max-w-7xl mx-auto py-[64px] px-[24px] flex flex-col lg:flex-row gap-[48px]">
+
+                <aside class="bg-primaryGray rounded-3xl w-full lg:w-[288px] ">
+                    <div class="overlay flex flex-col gap-[24px] p-[32px]">
+                        <h3 class="font-serif text-[20px] font-bold leaing-[28px]">Filters</h3>
+                        <div class="flex flex-col gap-[32px]">
+                            <!--country-->
+                            <div class="flex flex-col gap-[16px]">
+                                <label class="text-[12px] leading-[16px] font-bold">REGION</label>
+                                <select
+                                    class="text-[16px] leading-[24px] bg-secondaryGray py-[12px] px-[12px] rounded-xl">
+                                    <option>All Regions</option>
+                                    <option>French Riviera</option>
+                                    <option>Maldives</option>
+                                    <option>Swiss Alps</option>
+                                    <option>Kyoto, Japan</option>
+                                </select>
+                            </div>
+                            <!--price range-->
+                            <div class="flex flex-col gap-[16px]">
+                                <label class="text-[12px] leading-[16px] font-bold">PRICE TIER</label>
+                                <label
+                                    class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300 "><input
+                                        class="mr-[12px] w-[16px] h-[16px] bg-secondaryGray accent-blue-400 appearance-auto"
+                                        type="checkbox" />Premium ($5k -
+                                    $10k)</label>
+                                <label
+                                    class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300"><input
+                                        class="mr-[12px] w-[16px] h-[16px] " type="checkbox" />Luxury ($10k -
+                                    $25k)</label>
+                                <label
+                                    class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300"><input
+                                        class="mr-[12px] w-[16px] h-[16px]" type="checkbox" checked />Ultra-Luxe
+                                    ($25k+)</label>
+
+                            </div>
+                            <!--Duration-->
+                            <div class="flex flex-col gap-[16px]">
+                                <label class="text-[12px] leading-[16px] font-bold">DURATION</label>
+                                <div class="grid grid-cols-2 gap-[8px]">
+                                    <button
+                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">3-5
+                                        Days</button>
+                                    <button
+                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">7-10Days</button>
+                                    <button
+                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">14
+                                        Days</button>
+                                    <button
+                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">21+
+                                        Days</button>
+                                </div>
+                            </div>
+                            <!--travel type-->
+                            <div class="flex flex-col gap-[16px]">
+                                <label class="text-[12px] leading-[16px] font-bold ">TRAVEL TYPE</label>
+                                <div
+                                    class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
+                                    <p class="text-sm">Private Charter</p>
+                                    <img src="../assets/image/destinationP/aside/plane.svg" />
+                                </div>
+                                <div
+                                    class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
+                                    <p class="text-sm">Wellness Retreat</p>
+                                    <img src="../assets/image/destinationP/aside/flower.svg" />
+                                </div>
+                                <div
+                                    class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
+                                    <p class="text-sm">Art & Culture</p>
+                                    <img src="../assets/image/destinationP/aside/art.svg" />
+                                </div>
+                            </div>
+                        </div>
+                        <button
+                            class="py-[12px] px-[78.86] border border-primaryAccent border rounded-full text-[16px] text-primaryAccent font-bold capitalize leading-[24px] hover:bg-primaryAccent hover:text-black transition-all duration-300">clear
+                            all</button>
+                    </div>
+                    <!--<div class="recommended"></div>-->
+                </aside>
+                <!-- bg-amber-950-->
+                <div class="gridResult flex-1">
+                    <div class="flex justify-between items-center">
+                        <p class="text-[16px]">Showing 12 of 84 destinations</p>
+                        <div class="flex">
+                            <p class="text-sm mr-[16px]">SORT BY:</p>
+                            <select class="font-bold mr-[8px]">
+                                <option class="">Most Curated</option>
+                                <option>Price:High To Low</option>
+                                <option>NewestAdditon</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-[32px] py-[40px]">
+
+                        <div
+                            class="card bg-primaryGray relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
+                            <img src="../assets/image/destinationP/mainContentArea/almahaDesert.webp"
+                                class="h-80 hoverImage opacity-100  " />
+                            <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
+                                <span>VIP EXCLUSIVE</span></div>
+                            <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
+                                <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span> 5.0</span>
+                            </div>
+                            <div class=" p-[32px]">
+                                <div class="pb-[16px]">
+                                    <h3
+                                        class="mb-[8px] font-serif font-bold text-[24px] leading-[32px] transition-all duration-400 group-hover:text-primaryAccent ">
+                                        Al Maha Desert
+                                        Resort</h3>
+                                    <p class="text-[14px] leading-[20px]">Experience the serenity of the Arabian desert
+                                        in unmatched architectural luxury and private pool…</p>
+                                </div>
+                                <div class="flex justify-between border-t-[2px] border-t-secondaryGray items-end">
+                                    <div class="pt-[24px]">
+                                        <span class="text-[10px] leading-[15px] uppercase">private estate</span>
+                                        <p class="text-[20px] leading-[28px] font-bold">$32,500<span
+                                                class="text-[10px] leading-[15px]">/WK</span></p>
+                                    </div>
+                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="card bg-primaryGray relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
+                            <img src="../assets/image/destinationP/mainContentArea/alpineLodge.webp"
+                                class="h-80 hoverImage opacity-100  " />
+                            <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
+                                <span>VIP EXCLUSIVE</span></div>
+                            <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
+                                <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span>4.9</span>
+                            </div>
+                            <div class=" p-[32px]">
+                                <div class="pb-[16px]">
+                                    <h3
+                                        class="mb-[8px] font-serif font-bold text-[24px] leading-[32px] transition-all duration-400 group-hover:text-primaryAccent ">
+                                        The Alpine Lodge</h3>
+                                    <p class="text-[14px] leading-[20px]">Secluded mountain mastery featuring
+                                        floor-to-ceiling glass walls overlooking the Engadin Valley glaciers.</p>
+                                </div>
+                                <div class="flex justify-between border-t-[2px] border-t-secondaryGray items-end">
+                                    <div class="pt-[24px]">
+                                        <span class="text-[10px] leading-[15px] uppercase">SKI IN/OUT</span>
+                                        <p class="text-[20px] leading-[28px] font-bold">$28,000<span
+                                                class="text-[10px] leading-[15px]">/WK</span></p>
+                                    </div>
+                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="card bg-[#1e1e1e] relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
+                            <img src="../assets/image/destinationP/mainContentArea/katsuraEstate.webp"
+                                class="h-80 hoverImage opacity-100  " />
+                            <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
+                                <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span>4.8</span>
+                            </div>
+                            <div class=" p-[32px]">
+                                <div class="pb-[16px]">
+                                    <h3
+                                        class="mb-[8px] font-serif font-bold text-[24px] leading-[32px] transition-all duration-400 group-hover:text-primaryAccent ">
+                                        Katsura Imperial Estate</h3>
+                                    <p class="text-[14px] leading-[20px]">Authentic heritage meets modern hospitality in
+                                        a private Kyoto sanctuary spanning centuries of history.</p>
+                                </div>
+                                <div class="flex justify-between border-t-[2px] border-t-secondaryGray items-end">
+                                    <div class="pt-[24px]">
+                                        <span class="text-[10px] leading-[15px] uppercase">HERITAGE SITE</span>
+                                        <p class="text-[20px] leading-[28px] font-bold">$19,200<span
+                                                class="text-[10px] leading-[15px]">/WK</span></p>
+                                    </div>
+                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="card bg-primaryGray relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
+                            <img src="../assets/image/destinationP/mainContentArea/azureIsland.webp"
+                                class="h-80 hoverImage opacity-100  " />
+                            <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
+                                <span>VIP EXCLUSIVE</span></div>
+                            <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
+                                <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span> 5.0</span>
+                            </div>
+                            <div class=" p-[32px]">
+                                <div class="pb-[16px]">
+                                    <h3
+                                        class="mb-[8px] font-serif font-bold text-[24px] leading-[32px] transition-all duration-400 group-hover:text-primaryAccent ">
+                                        Azure Bay Private Island</h3>
+                                    <p class="text-[14px] leading-[20px]">Total isolation in the heart of the
+                                        Seychelles. Staffed by 12 professionals dedicated to your whim.</p>
+                                </div>
+                                <div class="flex justify-between border-t-[2px] border-t-secondaryGray items-end">
+                                    <div class="pt-[24px]">
+                                        <span class="text-[10px] leading-[15px] uppercase">PRIVATE ISLAND</span>
+                                        <p class="text-[20px] leading-[28px] font-bold">$85,000<span
+                                                class="text-[10px] leading-[15px]">/WK</span></p>
+                                    </div>
+                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
 </html>
