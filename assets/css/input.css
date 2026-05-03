@@ -36,8 +36,14 @@
 @utility hoverButton{
     @apply hover:scale-110 inline-block transition-all duration-300 cursor-pointer;
 }
+@utility hoverButtonBgGray{
+    @apply hover:bg-secondaryGray inline-block transition-all duration-200 cursor-pointer;
+}
+@utility hoverButtonBgWhite{
+    @apply hover:bg-white/35  inline-block transition-all duration-200 cursor-pointer;
+}
 @utility hoverButtonBorder{
     @apply border-transparent  hover:border-primaryAccent transition-all duration-300;
 }
 @utility hoverImage{
-@apply transition-transform duration-600 group-hover:scale-107;}
+@apply transition-transform duration-600 group-hover:scale-110;}

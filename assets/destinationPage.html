@@ -54,83 +54,102 @@
 
             </section>
             <section class="mainContentArea max-w-7xl mx-auto py-[64px] px-[24px] flex flex-col lg:flex-row gap-[48px]">
+                <aside class=" rounded-3xl w-full lg:w-[288px] ">
+                    <div class="filter bg-primaryGray">
+                        <div class="overlay flex flex-col gap-[24px] p-[32px]">
+                            <h3 class="font-serif text-[20px] font-bold leaing-[28px]">Filters</h3>
+                            <div class="flex flex-col gap-[32px]">
+                                <!--country-->
+                                <div class="flex flex-col gap-[16px]">
+                                    <label class="text-[12px] leading-[16px] font-bold">REGION</label>
+                                    <select
+                                        class="text-[16px] leading-[24px] bg-secondaryGray py-[12px] px-[12px] rounded-xl">
+                                        <option>All Regions</option>
+                                        <option>French Riviera</option>
+                                        <option>Maldives</option>
+                                        <option>Swiss Alps</option>
+                                        <option>Kyoto, Japan</option>
+                                    </select>
+                                </div>
+                                <!--price range-->
+                                <div class="flex flex-col gap-[16px]">
+                                    <label class="text-[12px] leading-[16px] font-bold">PRICE TIER</label>
+                                    <label
+                                        class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300 "><input
+                                            class="mr-[12px] w-[16px] h-[16px] bg-secondaryGray accent-blue-400 appearance-auto"
+                                            type="checkbox" />Premium ($5k -
+                                        $10k)</label>
+                                    <label
+                                        class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300"><input
+                                            class="mr-[12px] w-[16px] h-[16px] " type="checkbox" />Luxury ($10k -
+                                        $25k)</label>
+                                    <label
+                                        class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300"><input
+                                            class="mr-[12px] w-[16px] h-[16px]" type="checkbox" checked />Ultra-Luxe
+                                        ($25k+)</label>
 
-                <aside class="bg-primaryGray rounded-3xl w-full lg:w-[288px] ">
-                    <div class="overlay flex flex-col gap-[24px] p-[32px]">
-                        <h3 class="font-serif text-[20px] font-bold leaing-[28px]">Filters</h3>
-                        <div class="flex flex-col gap-[32px]">
-                            <!--country-->
-                            <div class="flex flex-col gap-[16px]">
-                                <label class="text-[12px] leading-[16px] font-bold">REGION</label>
-                                <select
-                                    class="text-[16px] leading-[24px] bg-secondaryGray py-[12px] px-[12px] rounded-xl">
-                                    <option>All Regions</option>
-                                    <option>French Riviera</option>
-                                    <option>Maldives</option>
-                                    <option>Swiss Alps</option>
-                                    <option>Kyoto, Japan</option>
-                                </select>
+                                </div>
+                                <!--Duration-->
+                                <div class="flex flex-col gap-[16px]">
+                                    <label class="text-[12px] leading-[16px] font-bold">DURATION</label>
+                                    <div class="grid grid-cols-2 gap-[8px]">
+                                        <button
+                                            class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">3-5
+                                            Days</button>
+                                        <button
+                                            class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">7-10Days</button>
+                                        <button
+                                            class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">14
+                                            Days</button>
+                                        <button
+                                            class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">21+
+                                            Days</button>
+                                    </div>
+                                </div>
+                                <!--travel type-->
+                                <div class="flex flex-col gap-[16px]">
+                                    <label class="text-[12px] leading-[16px] font-bold ">TRAVEL TYPE</label>
+                                    <div
+                                        class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
+                                        <p class="text-sm">Private Charter</p>
+                                        <img src="../assets/image/destinationP/aside/plane.svg" />
+                                    </div>
+                                    <div
+                                        class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
+                                        <p class="text-sm">Wellness Retreat</p>
+                                        <img src="../assets/image/destinationP/aside/flower.svg" />
+                                    </div>
+                                    <div
+                                        class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
+                                        <p class="text-sm">Art & Culture</p>
+                                        <img src="../assets/image/destinationP/aside/art.svg" />
+                                    </div>
+                                </div>
                             </div>
-                            <!--price range-->
-                            <div class="flex flex-col gap-[16px]">
-                                <label class="text-[12px] leading-[16px] font-bold">PRICE TIER</label>
-                                <label
-                                    class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300 "><input
-                                        class="mr-[12px] w-[16px] h-[16px] bg-secondaryGray accent-blue-400 appearance-auto"
-                                        type="checkbox" />Premium ($5k -
-                                    $10k)</label>
-                                <label
-                                    class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300"><input
-                                        class="mr-[12px] w-[16px] h-[16px] " type="checkbox" />Luxury ($10k -
-                                    $25k)</label>
-                                <label
-                                    class="text-[16px] leading-[24px] hover:text-primaryAccent transition-all duration-300"><input
-                                        class="mr-[12px] w-[16px] h-[16px]" type="checkbox" checked />Ultra-Luxe
-                                    ($25k+)</label>
+                            <button
+                                class="py-[12px] px-[78.86] border border-primaryAccent border rounded-full text-[16px] text-primaryAccent font-bold capitalize leading-[24px] hover:bg-primaryAccent hover:text-black transition-all duration-300">clear
+                                all</button>
+                        </div>
+                    </div>
 
-                            </div>
-                            <!--Duration-->
-                            <div class="flex flex-col gap-[16px]">
-                                <label class="text-[12px] leading-[16px] font-bold">DURATION</label>
-                                <div class="grid grid-cols-2 gap-[8px]">
-                                    <button
-                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">3-5
-                                        Days</button>
-                                    <button
-                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">7-10Days</button>
-                                    <button
-                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">14
-                                        Days</button>
-                                    <button
-                                        class="bg-secondaryGray text-sm px-4 py-[8px] rounded-lg border hoverButtonBorder">21+
-                                        Days</button>
-                                </div>
-                            </div>
-                            <!--travel type-->
-                            <div class="flex flex-col gap-[16px]">
-                                <label class="text-[12px] leading-[16px] font-bold ">TRAVEL TYPE</label>
-                                <div
-                                    class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
-                                    <p class="text-sm">Private Charter</p>
-                                    <img src="../assets/image/destinationP/aside/plane.svg" />
-                                </div>
-                                <div
-                                    class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
-                                    <p class="text-sm">Wellness Retreat</p>
-                                    <img src="../assets/image/destinationP/aside/flower.svg" />
-                                </div>
-                                <div
-                                    class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
-                                    <p class="text-sm">Art & Culture</p>
-                                    <img src="../assets/image/destinationP/aside/art.svg" />
-                                </div>
+                    <div class="recommended hidden lg:block mt-[40px] ">
+                        <h4 class="text-[18px] font-serif leading-7 mb-[24px]">Recommended </h4>
+                        <div class="card group overflow-hidden rounded-xl">
+                            <img src="../assets/image/destinationP/recomended/anoNagThailand.webp"  class="rounded-xl hoverImage " />
+                            <div class="mt-[16px]">
+                                <h5 class="text-[16px] font-bold leading-6 group-hover:text-primaryAccent transition-all duration-600">Ao Nang, Thailand</h5>
+                                <p class="text-[12px] leading-4">STARTING AT $12,400</p>
                             </div>
                         </div>
-                        <button
-                            class="py-[12px] px-[78.86] border border-primaryAccent border rounded-full text-[16px] text-primaryAccent font-bold capitalize leading-[24px] hover:bg-primaryAccent hover:text-black transition-all duration-300">clear
-                            all</button>
+                          <div class="card mt-[16px] group overflow-hidden rounded-xl">
+                            <img src="../assets/image/destinationP/recomended/almalfiCoastItaly.webp"class=" hoverImage" />
+                            <div class="mt-[16px]">
+                                <h5 class="text-[16px] font-bold leading-6 group-hover:text-primaryAccent transition-all duration-600">Amalfi Coast, Italy</h5>
+                                <p class="text-[12px] leading-4">STARTING AT $18,900</p>
+                            </div>
+                        </div>
+
                     </div>
-                    <!--<div class="recommended"></div>-->
                 </aside>
                 <!-- bg-amber-950-->
                 <div class="gridResult flex-1">
@@ -152,7 +171,8 @@
                             <img src="../assets/image/destinationP/mainContentArea/almahaDesert.webp"
                                 class="h-80 hoverImage opacity-100  " />
                             <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
-                                <span>VIP EXCLUSIVE</span></div>
+                                <span>VIP EXCLUSIVE</span>
+                            </div>
                             <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
                                 <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span> 5.0</span>
                             </div>
@@ -171,8 +191,8 @@
                                         <p class="text-[20px] leading-[28px] font-bold">$32,500<span
                                                 class="text-[10px] leading-[15px]">/WK</span></p>
                                     </div>
-                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
-                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                    <button class="rounded-full p-[12px] border-[1px]  hoverButtonBgWhite "><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                         /></button>
                                 </div>
                             </div>
 
@@ -183,7 +203,8 @@
                             <img src="../assets/image/destinationP/mainContentArea/alpineLodge.webp"
                                 class="h-80 hoverImage opacity-100  " />
                             <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
-                                <span>VIP EXCLUSIVE</span></div>
+                                <span>VIP EXCLUSIVE</span>
+                            </div>
                             <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
                                 <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span>4.9</span>
                             </div>
@@ -201,8 +222,8 @@
                                         <p class="text-[20px] leading-[28px] font-bold">$28,000<span
                                                 class="text-[10px] leading-[15px]">/WK</span></p>
                                     </div>
-                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
-                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                    <button class="rounded-full p-[12px] border-[1px]  hoverButtonBgWhite "><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                      /></button>
                                 </div>
                             </div>
 
@@ -229,8 +250,8 @@
                                         <p class="text-[20px] leading-[28px] font-bold">$19,200<span
                                                 class="text-[10px] leading-[15px]">/WK</span></p>
                                     </div>
-                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
-                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                    <button class="rounded-full p-[12px] border-[1px]  hoverButtonBgWhite "><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                       /></button>
                                 </div>
                             </div>
 
@@ -241,7 +262,8 @@
                             <img src="../assets/image/destinationP/mainContentArea/azureIsland.webp"
                                 class="h-80 hoverImage opacity-100  " />
                             <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
-                                <span>VIP EXCLUSIVE</span></div>
+                                <span>VIP EXCLUSIVE</span>
+                            </div>
                             <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
                                 <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span> 5.0</span>
                             </div>
@@ -259,12 +281,21 @@
                                         <p class="text-[20px] leading-[28px] font-bold">$85,000<span
                                                 class="text-[10px] leading-[15px]">/WK</span></p>
                                     </div>
-                                    <button class=""><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
-                                            class="rounded-full p-[12px] border-[1px]" /></button>
+                                    <button class="rounded-full p-[12px] border-[1px]  hoverButtonBgWhite "><img src="../assets/image/destinationP/mainContentArea/arrowSm.png"
+                                         /></button>
                                 </div>
                             </div>
 
                         </div>
+                    </div>
+                    <div class="mt-[40px] px-[150px] lg:px-[289.92px]  pt-[24px] flex justify-center gap-[8px]">
+                        <button class="w-10 h-10 flex justify-center items-center rounded-full hoverButtonBgGray" ><img src="../assets/image/destinationP/mainContentArea/beforIcon.svg"  /></button>
+                        <button class="px-[16px] py-[8px] text-black rounded-full bg-primaryAccent">1</button>
+                         <button class="px-[16px] py-[8px]  rounded-full hoverButtonBgGray">2</button>
+                         <button class="px-[16px] py-[8px]  rounded-full hoverButtonBgGray">3</button>
+                         <p>...</p>
+                           <button class="px-[16px] py-[8px]  rounded-full hoverButtonBgGray">7</button>
+                       <button class="w-10 h-10 flex justify-center items-center rounded-full hoverButtonBgGray" ><img src="../assets/image/destinationP/mainContentArea/nextIcon.svg" /></button>
                     </div>
                 </div>
             </section>
