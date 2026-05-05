@@ -29,7 +29,7 @@
     @apply flex items-center;
 }
 @utility hoverAcolor{
-    @apply hover:text-primary inline-block transition-all duration-300;
+    @apply hover:text-primaryAccent inline-block transition-all duration-300;
 }
 @utility hoverA{
     @apply hover:scale-110 inline-block transition-all duration-300;
