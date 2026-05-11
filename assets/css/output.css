@@ -289,6 +289,9 @@
   .z-50 {
     z-index: 50;
   }
+  .m-\[96px\] {
+    margin: 96px;
+  }
   .mx-\[20px\] {
     margin-inline: 20px;
   }
