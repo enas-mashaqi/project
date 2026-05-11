@@ -48,3 +48,6 @@
 }
 @utility hoverImage{
 @apply transition-transform duration-600 group-hover:scale-110;}
+
+@utility hoverDiv{
+    @apply hover:bg-secondaryGray  transition-all duration-300 cursor-pointer;}

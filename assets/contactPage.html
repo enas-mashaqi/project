@@ -36,9 +36,11 @@
     </header>
 
     <main>
-        <section class="hero  max-w-7xl mx-auto px-[80px] md:px-[180px] lg:px-[216.5px] mt-[160px] text-center mb-[96px] ">
+        <section
+            class="hero  max-w-7xl mx-auto px-[80px] md:px-[180px] lg:px-[216.5px] mt-[160px] text-center mb-[96px] ">
             <span class="text-[12px] leading-[16px] tracking-[3.6px] text-highlights">INQUIRE WITHIN</span>
-            <h1 class="text-[50px] md:text-[60px] lg:text-[72px] text-center font-serif mt-[16px]">Begin Your <span class="text-primaryAccent">Unforgettable
+            <h1 class="text-[30px] sm:text-[50px] md:text-[60px] lg:text-[72px] text-center font-serif mt-[16px]">Begin Your <span
+                    class="text-primaryAccent">Unforgettable
                 </span>Journey </h1>
 
         </section>
@@ -61,7 +63,7 @@
                     </div>
                     <div class="flex items-start gap-[16px]">
                         <img src="../assets/image/contactP/massageIcon.svg" />
-                        <p class="text-[16px] leading-[24px] font-medium">concierge@etherealnavigator.com</p>
+                        <p class="text-[16px] leading-[24px] font-medium max-xs:wrap-anywhere">concierge@etherealnavigator.com</p>
                     </div>
                     <h3 class="font-serif text-[24px] leading-[32px] mt-[48px]">Connect</h3>
                     <div class="flex gap-[24px]">
@@ -89,14 +91,15 @@
                 <h2 class="text-[30px] leading-[36px] font-serif mb-[32px]">Reservation Inquiry</h2>
                 <form action="" class="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
                     <div class="flex flex-col  gap-[8.5px]">
-                        <label class="text-[10px] leading-[15px]">FULL NAME</label><input type="text" placeholder="Julian Vane"
-                            class="px-[24px] py-[17px] bg-secondaryGray rounded-2xl " />
+                        <label class="text-[10px] leading-[15px]">FULL NAME</label><input type="text"
+                            placeholder="Julian Vane" class="px-[24px] py-[17px] bg-secondaryGray rounded-2xl " />
                     </div>
                     <div class="flex flex-col gap-[8.5px]">
-                        <label class="text-[10px] leading-[15px] tracking-[1px]"> Email Address</label><input type="email" placeholder="vane@private.com"
+                        <label class="text-[10px] leading-[15px] tracking-[1px]"> Email Address</label><input
+                            type="email" placeholder="vane@private.com"
                             class="px-[24px] py-[17px] bg-secondaryGray rounded-2xl" />
                     </div>
-                     <div class="flex flex-col gap-[8.5px]">
+                    <div class="flex flex-col gap-[8.5px]">
                         <label class="text-[10px] leading-[15px] tracking-[1px]">PREFERRED DESTINATION</label>
                         <select class="bg-secondaryGray px-[24px] py-[16px] rounded-2xl">
                             <option>Amalfi Coast, Italy</option>
@@ -105,18 +108,57 @@
                             <option>Swiss Alps Retreat</option>
                         </select>
                     </div>
-                     <div class="flex flex-col  gap-[8.5px]">
-                        <label class="text-[10px] leading-[15px] tracking-[1px]">TRAVEL WINDOW</label><input type="email" placeholder="Spring 2025"
+                    <div class="flex flex-col  gap-[8.5px]">
+                        <label class="text-[10px] leading-[15px] tracking-[1px]">TRAVEL WINDOW</label><input
+                            type="email" placeholder="Spring 2025"
                             class="px-[24px] py-[17px] bg-secondaryGray rounded-2xl" />
                     </div>
-                      <div class="flex flex-col  gap-[8.5px] md:col-span-2">
+                    <div class="flex flex-col  gap-[8.5px] md:col-span-2">
                         <label class="text-[10px] leading-[15px] tracking-[1px]">TRAVEL WINDOW</label>
-                        <textarea rows="4" placeholder="Describe your vision for the perfect escape..." class="bg-secondaryGray px-[24px] pt-[16px] rounded-2xl"></textarea>
+                        <textarea rows="4" placeholder="Describe your vision for the perfect escape..."
+                            class="bg-secondaryGray px-[24px] pt-[16px] rounded-2xl"></textarea>
                     </div>
                     <div class="md:col-span-2 flex justify-end">
-                        <button class="text-black text-[14px] leading-[20px] tracking-[1.4px] font-bold mt-[16px] px-[40px] py-[16px] bg-highlights rounded-full hover:shadow-[0_0px_10px_rgba(255,255,0,0.7)] cursor-pointer transition-all duration-400">SUBMIT INQUIRY</button>
+                        <button
+                            class="text-black text-[14px] leading-[20px] tracking-[1.4px] font-bold mt-[16px] px-[40px] py-[16px] bg-highlights rounded-full hover:shadow-[0_0px_10px_rgba(255,255,0,0.7)] cursor-pointer transition-all duration-400">SUBMIT
+                            INQUIRY</button>
                     </div>
                 </form>
+            </div>
+
+        </section>
+
+        <section class="FAQ mt-[96px]">
+            <div class="max-w-7xl mx-auto  text-center pt-[96px] px-[20px] md:px-[80px] lg:px-[256px] ">
+                <h2 class="text-[36px] leading-[40px] font-serif  ">Concierge FAQ</h2>
+                <span class="text-[16px] leading-[24px] ">Answers for our most discerning travelers.</span>
+                <div class=" mt-[64px] flex flex-col gap-[16px]">
+                    <div
+                        class="group flex justify-between p-[24px] rounded-2xl border-[1px]  border-gray-500/15 group hoverDiv">
+                        <h4 class="text-[16px] leading-[24px]">How far in advance should I book?</h4>
+                        <span
+                            class="material-symbols-outlined text-primaryAccent group-hover:rotate-45 transition-transform">add</span>
+                    </div>
+                    <div
+                        class="group flex justify-between p-[24px] rounded-2xl border-[1px] border-gray-500/15 group hoverDiv">
+                        <h4 class="text-[16px] leading-[24px]">Do you provide private security services?</h4>
+                        <span
+                            class="material-symbols-outlined text-primaryAccent group-hover:rotate-45 transition-transform">add</span>
+                    </div>
+                    <div
+                        class="group flex justify-between p-[24px] rounded-2xl border-[1px]  border-gray-500/15 group hoverDiv">
+                        <h4 class="text-[16px] leading-[24px]">Are all memberships inclusive of charter flights?</h4>
+                        <span
+                            class="material-symbols-outlined text-primaryAccent group-hover:rotate-45 transition-transform">add</span>
+                    </div>
+                    <div
+                        class="group flex justify-between p-[24px] rounded-2xl border-[1px]  border-gray-500/15 group hoverDiv">
+                        <h4 class="text-[16px] leading-[24px]">Can you accommodate ultra-exclusive requests?</h4>
+                        <span
+                            class="material-symbols-outlined text-primaryAccent group-hover:rotate-45 transition-transform">add</span>
+                    </div>
+
+                </div>
             </div>
 
         </section>
