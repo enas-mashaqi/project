@@ -43,6 +43,9 @@
 @utility hoverButtonBgWhite{
     @apply hover:bg-white/35  inline-block transition-all duration-200 cursor-pointer;
 }
+@utility hoverButtonBgBlue{
+    @apply hover:bg-primaryAccent  inline-block transition-all duration-200 cursor-pointer;
+}
 @utility hoverButtonBorder{
     @apply border-transparent  hover:border-primaryAccent  transition-all duration-300 cursor-pointer;
 }
