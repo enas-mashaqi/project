@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link href="../assets/css/output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header
+        class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-10 py-4 max-w-7xl mx-auto rounded-full bg-primaryBackground/60 shadow-[0_8px_50px_rgba(80,120,255,0.08),0_8px_50px_rgba(0,120,255,0.1)] backdrop-blur-[20px]">
+
+        <p class="text-highlights  text-2xl italic font-tinos lg:text-nowrap">ETHEREAL NAVIGATOR</p>
+
+        <ul class="hidden lg:flex gap-[38px]   justify-between font-medium leading-6">
+            <li><a href="../index.html" class="hoverA">Home</a></li>
+            <li><a href="./destinationPage.html" class=" hoverA">Destinatins</a></li>
+            <li><a href="./toursPage.html" class="hoverA">Tours</a></li>
+            <li><a href="#" class="hoverA">Offers</a></li>
+        </ul>
+
+        <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton">Book Exclusive Trip</button>
+
+    </header>
+    <main>
+        <section class="mainSection my-[128px] max-w-7xl mx-auto px-[20px] md:px-[24px] flex flex-col lg:flex-row gap-[48px]">
+            <div class="flex flex-col gap-[48px] w-full lg:w-[805px]">
+                <div>
+                    <h1 class="font-serif text-[48px] leading-[48px] tracking-[-1.2px] mb-[16px]">Complete Your Journey
+                    </h1>
+                    <p class="text-[16px] leading-[24px] max-w-xl">Every detail of your ethereal voyage is meticulously
+                        curated.
+                        Please finalize your reservation below.</p>
+                </div>
+                <div class="relative">
+                    <div class="absolute top-1/2 left-0 w-full h-[3px] bg-secondaryGray/70 -translate-y-1/2"></div>
+                    <div class="flex justify-between ">
+                    <div class="flex flex-col gap-[12px] items-center">
+                        <div
+                            class="w-[40px] h-[40px] flex justify-center items-center bg-primaryAccent rounded-full z-40">
+                            <span class="material-symbols-outlined text-base">check</span>
+                        </div>
+                        <span
+                            class="text-[12px] leading-[16px] tracking-[1.2px] font-bold text-primaryAccent">INFO</span>
+                    </div>
+                    <div class="flex flex-col gap-[12px] items-center">
+                        <div
+                            class="w-[40px] h-[40px] flex justify-center items-center bg-gray-700 rounded-full outline-2 outline-primaryAccent z-40">
+                            <span class="font-serif font-bold text-primaryAccent text-[16px] leading-[24px]">2</span>
+                        </div>
+                        <span class="text-[12px] leading-[16px] tracking-[1.2px] font-bold">DETAILS</span>
+                    </div>
+                    <div class="flex flex-col gap-[12px] items-center">
+                        <div
+                            class="w-[40px] h-[40px] flex justify-center items-center bg-secondaryGray rounded-full z-40">
+                            <span class="font-serif font-bold text-primaryAccent text-[16px] leading-[24px]">3</span>
+                        </div>
+                        <span class="text-[12px] leading-[16px] tracking-[1.2px] font-bold">PAYMENT</span>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="p-[32px] bg-primaryGray rounded-xl">
+                    <h2 class="font-serif text-[24px] leading-[32px] mb-[32px]">Traveler Information</h2>
+                    <div class="grid grid-cols-2 gap-[24px]">
+                        <div class="flex flex-col justify-center gap-[8.5px]">
+                            <label class="text-[12px] leading-[16px] tracking-[1.2px] ml-[4px]">Full Name</label>
+                            <input type="text" placeholder="Julian Vane"
+                                class="bg-secondaryGray px-[16px] py-[17px] rounded-2xl  focus:outline-none focus:ring-2 focus:ring-primaryAccent" />
+                        </div>
+                        <div class="flex flex-col justify-center gap-[8.5px]">
+                            <label class="text-[12px] leading-[16px] tracking-[1.2px] ml-[4px]">EMAIL ADDRESS</label>
+                            <input type="text" placeholder="julian@ethereal.luxury"
+                                class="bg-secondaryGray px-[16px] py-[17px] rounded-2xl focus:outline-none focus:ring-2 focus:ring-primaryAccent" />
+                        </div>
+                        <div class="flex flex-col justify-center gap-[8.5px]">
+                            <label class="text-[12px] leading-[16px] tracking-[1.2px] ml-[4px]">PASSPORT NUMBER</label>
+                            <input type="text" placeholder="X-78900-LV"
+                                class="bg-secondaryGray px-[16px] py-[17px] rounded-2xl focus:outline-none focus:ring-2 focus:ring-primaryAccent" />
+                        </div>
+                        <div class="flex flex-col justify-center gap-[8.5px]">
+                            <label class="text-[12px] leading-[16px] tracking-[1.2px] ml-[4px]">NATIONALITY</label>
+                            <select
+                                class="bg-secondaryGray px-[16px] py-[17px] rounded-2xl capitalize border-none focus:ring-primaryAccent focus:outline-none focus:ring-2 focus:ring-primaryAccent">
+                                <option>united kingdom</option>
+                                <option>united states</option>
+                                <option>france</option>
+                                <option>jaban</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-[32px] bg-primaryGray rounded-xl">
+                    <h2 class="font-serif text-[24px] leading-[32px] mb-[32px]">Traveler Information</h2>
+                    <div class="grid grid-cols-3 gap-[16px]">
+                        <div class="flex flex-col gap-[4px] p-[16px] border-[1px] rounded-2xl border-gray-600">
+                            <div class="flex justify-between items-center">
+                                <span class="material-symbols-outlined text-primaryAccent">spa</span>
+                                <input type="checkbox" />
+                            </div>
+                            <h3 class="font-serif font-bold text-[16px] leading-[24px]">Wellness Suite</h3>
+                            <span class="text-[12px] leading-[16px]">Private spa access</span>
+                        </div>
+                        <div class="flex flex-col gap-[4px] p-[16px] border-[1px] rounded-2xl border-gray-600">
+                            <div class="flex justify-between items-center">
+                                <span class="material-symbols-outlined text-primaryAccent">wine_bar</span>
+                                <input type="checkbox" />
+                            </div>
+                            <h3 class="font-serif font-bold text-[16px] leading-[24px]">Artisan Cellar</h3>
+                            <span class="text-[12px] leading-[16px]">Daily sommelier tastings</span>
+                        </div>
+                        <div class="flex flex-col gap-[4px] p-[16px] border-[1px] rounded-2xl border-gray-600">
+                            <div class="flex justify-between items-center">
+                                <span class="material-symbols-outlined text-primaryAccent">diamond</span>
+                                <input type="checkbox" />
+                            </div>
+                            <h3 class="font-serif font-bold text-[16px] leading-[24px]">Concierge+</h3>
+                            <span class="text-[12px] leading-[16px]">24/7 dedicated handler</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pt-[24px] flex justify-between">
+                    <a href="#" class="text-[12px] leading-[16px] tracking-[1.2px] flex items-center"><span
+                            class="material-symbols-outlined mr-[8px]">arrow_back</span>BACK TO DESTINATION</a>
+                    <button
+                        class="rounded-4xl bg-highlights px-[40px] py-[16px] text-black text-[16px] leading-[24px] font-bold shadow-[0_6px_30px_rgba(250,204,21,0.45)] hoverButton">Review
+                        & Pay $14,250</button>
+                </div>
+            </div>
+
+            <aside class="flex flex-col gap-[32px] w-full lg:w-[378.67px]">
+                <div class="relative rounded-xl bg-primaryGray ">
+                    <img src="../assets/image/bookingP/theAzureSanctuary.webp"
+                        class="w-full rounded-t-xl h-48 opacity-60 shadow-xl" />
+                    <div class="absolute top-[117px] left-[24px]">
+                        <div class="rounded-4xl px-[12px] py-[4px] bg-yellow-400/20 w-fit">
+                            <span class="text-[10px] leading-[15px] font-bold tracking-[1px] text-highlights">EXCLUSIVE
+                                EXPERIENCE</span>
+                        </div>
+                        <p class="text-[20px] leading-[28px] font-bold font-serif">The Azure Sanctuary</p>
+                    </div>
+                    <div class="p-[32px] flex flex-col gap-[24px]">
+                        <div class="flex flex-col gap-[16px]">
+                            <div class="flex justify-between text-[14px] leading-[20px]">
+                                <span>Dates</span>
+                                <span class="font-bold ">Oct 12 — Oct 19, 2024</span>
+                            </div>
+                            <div class="flex justify-between text-[14px] leading-[20px]">
+                                <span>Guests</span>
+                                <span class="font-bold ">2 Adults, Luxury Tier</span>
+                            </div>
+                            <div class="flex justify-between text-[14px] leading-[20px]">
+                                <span>Room</span>
+                                <span class="font-bold ">Oceanic Overwater Suite</span>
+                            </div>
+                        </div>
+                        <div class="h-[1px] bg-secondaryGray/70"></div>
+                        <div class="flex flex-col gap-[16px]">
+                            <div class="flex justify-between text-[14px] leading-[20px]">
+                                <span>Base Rate (7 Nights)</span>
+                                <span>$12,500</span>
+                            </div>
+                            <div class="flex justify-between text-[14px] leading-[20px]">
+                                <span>Artisan Cellar Add-on</span>
+                                <span>$850</span>
+                            </div>
+                            <div class="flex justify-between text-[14px] leading-[20px]">
+                                <span>Taxes & Fees</span>
+                                <span>$900</span>
+                            </div>
+                            <div class="pt-[16px] flex justify-between items-center text-primaryAccent">
+                                <p class="text-[20px] leading-[28px] font-serif">Total Price</p>
+                                <p class="text-[20px] leading-[28px] font-serif">$14,250</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="p-[32px] bg-primaryGray rounded-xl border-l-[4px] border-t-[1px] border-primaryAccent shadow-lg">
+                    <h4 class="text-[18px] flex items-center leading-[28px] font-serif"><span
+                            class="material-symbols-outlined text-primaryAccent mr-[4px]">verified_user</span>Secure
+                        Reservation</h4>
+                    <p class="text-[14px] leading-[22.8px] mt-[14.75px]">Your data is encrypted with 256-bit military-
+                        grade security. Ethereal Navigator never shares your personal details with third-party vendors.
+                    </p>
+                </div>
+                <div class="p-[16px] ">
+                    <div class="flex gap-[15.99px] mb-[24px]">
+                        <span class="material-symbols-outlined">event_busy</span>
+                        <div>
+                            <h5 class="text-[14px] leading-[20px] font-bold mb-[4px]">Flexible Cancellation</h5>
+                            <p class="text-[12px] leading-[16px]">Full refund up to 72 hours before arrival. No
+                                questions asked.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-[15.99px]">
+                        <span class="material-symbols-outlined">headset_mic</span>
+                        <div>
+                            <h5 class="text-[14px] leading-[20px] font-bold mb-[4px]">24/7 Concierge Support</h5>
+                            <p class="text-[12px] leading-[16px]">Call +1 (800) ETH-EREAL or chat with us in the app.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </main>
+   
+
+</body>
+
+</html>
