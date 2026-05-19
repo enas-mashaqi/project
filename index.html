@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home | Ethereal Navigator</title>
+    <meta name="description" content="Explore luxury travel experiences and exclusive tours with Ethereal Navigator. Discover destinations, offers, and unforgettable adventures worldwide.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -26,23 +27,25 @@
             <li><a href="./assets/destinationPage.html" class="hoverA">Destinatins</a></li>
             <li><a href="./assets/toursPage.html" class="hoverA">Tours</a></li>
             <li><a href="./assets/offersPage.html" class="hoverA">Offers</a></li>
-            <li><a href="./assets/services.html" class="hoverA">Services</a></li>
+            <li><a href="./assets/servicesPage.html" class="hoverA">Services</a></li>
             <li><a href="./assets/blogPage.html" class="hoverA">Blog</a></li>
             <li><a href="./assets/contactPage.html" class="hoverA">Contact</a></li>
         </ul>
 
-        <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton">Book Exclusive Trip</button>
+        <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton" onclick="window.location.href='./assets/booking.html'">Book Exclusive Trip</button>
 
     </header>
     <main>
         <section class=" hero  text-center flex justify-center items-center h-[800px] ">
-            
-            <img src="./assets/image/hero.webp" alt="heroImage" class="relative w-full h-full opacity-60" />
+
+            <img src="./assets/image/hero.webp" alt="heroImage" class="relative object-cover w-full h-full " />
             <div class=" absolute  ">
                 <p class=" font-medium tracking-[2.8px] leading-[20px] text-primary">THE ART OF REFINED
                     DISCOVERY</p>
 
-                <h1 class="italic max-w-3xl text-center font-serif font-bold text-5xl  md:text-7xl lg:text-8xl my-[33px]">Beyond
+                <h1
+                    class="italic max-w-3xl text-center font-serif font-bold text-5xl  md:text-7xl lg:text-8xl my-[33px]">
+                    Beyond
                     the <span class="text-primary font-tinos">Horizon</span></h1>
 
                 <div class="flex max-md:flex-col justify-center items-center  text-[18px] font-bold gap-[24px]">
@@ -55,7 +58,7 @@
                         journey</button>
                 </div>
             </div>
-            
+
         </section>
 
         <section class="searchBar relative -mt-24 z-20 px-6 ">
@@ -107,51 +110,78 @@
                     ancestral heritage.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-12 gap-[24px] h-[800px]">
-                <div class="md:col-span-8 w-full rounded-4xl overflow-hidden group ">
-                    <img src="./assets/image/featuredContries/maldives.png" alt="maldives"
-                        class="h-full w-full   hoverImage" />
+                <div class="md:col-span-8 relative w-full rounded-4xl overflow-hidden group ">
+                    <img src="./assets/image/featuredContries/maldives.webp" alt="maldives"
+                        class="h-full w-full object-cover opacity-80 hoverImage" />
+                    <div class="absolute left-[40px] bottom-[40px] ">
+                        <div
+                            class="text-[12px] leading-[16px] tracking-[1.2px] text-highlights rounded-4xl bg-secondaryGray/90 w-[126px] px-[14px] py-[4px] uppercase">
+                            THE MALDIVES</div>
+                        <h3 class="text-[36px] leading-[40px] font-serif font-bold mt-[16px] capitalize">Azure Solitude
+                        </h3>
+                    </div>
                 </div>
-                <div class="md:col-span-4 w-full rounded-4xl  overflow-hidden group">
-                    <img src="./assets/image/featuredContries/italy.png" alt="italy"
-                        class="h-full w-full   hoverImage " />
+                <div class="md:col-span-4 relative w-full rounded-4xl  overflow-hidden group">
+                    <img src="./assets/image/featuredContries/italy.webp" alt="italy"
+                        class="h-full w-full object-cover opacity-80  hoverImage " />
+                    <div class="absolute left-[32px] bottom-[32px]">
+                        <div
+                            class="text-[12px] leading-[16px] tracking-[1.2px] text-highlights rounded-4xl bg-secondaryGray/90 w-[66.92px] px-[16px] py-[4px] uppercase">
+                            italy</div>
+                        <h3 class="text-[30px] leading-[36px] font-serif font-bold mt-[16px] capitalize"> Legacy of
+                            Venice</h3>
+                    </div>
                 </div>
 
-                <div class="md:col-span-4 w-full rounded-4xl overflow-hidden group">
-                    <img src="./assets/image/featuredContries/japan.png" alt="japan"
-                        class="h-full w-full hoverImage " />
+                <div class="md:col-span-4 relative w-full rounded-4xl overflow-hidden group">
+                    <img src="./assets/image/featuredContries/japan.webp" alt="japan"
+                        class="h-full w-full object-cover opacity-80 hoverImage " />
+                    <div class="absolute left-[32px] bottom-[32px] capitalize">
+                        <div
+                            class="text-[12px] leading-[16px] tracking-[1.2px] text-highlights rounded-4xl bg-secondaryGray/90 w-[66.92px] px-[16px] py-[4px] uppercase">
+                            japan</div>
+                        <h3 class="text-[30px] leading-[36px] font-serif font-bold mt-[16px] capitalize">Kyoto Whispers
+                        </h3>
+                    </div>
                 </div>
-                <div class="md:col-span-8 w-full rounded-4xl overflow-hidden group">
+                <div class="md:col-span-8 relative w-full rounded-4xl overflow-hidden group">
 
-                    <img src="./assets/image/featuredContries/switzerLand.png" alt="switzerLand"
-                        class="h-full w-full   hoverImage" />
+                    <img src="./assets/image/featuredContries/switzerLand.webp" alt="switzerLand"
+                        class="h-full w-full  object-cover opacity-80 hoverImage" />
+                    <div class="absolute left-[40px] bottom-[40px]">
+                        <div
+                            class="text-[12px] leading-[16px] tracking-[1.2px] text-highlights rounded-4xl bg-secondaryGray/90 w-[126px] px-[14px] py-[4px] uppercase">
+                            switzer Land</div>
+                        <h3 class="text-[30px] leading-[36px] font-serif font-bold mt-[16px] capitalize">Alpine Majesty
+                        </h3>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="popularDistination py-[128px] px-[40px]">
-            <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between ">
                 <div>
                     <h2 class="capitalize text-[38px] font-serif md:text-[48px] leading-[48px] mb-[16px]">ellite escapes
                     </h2>
-                    <p class=" text-[18px] text-[#C6C6CD] leading-[28px] mb-[64px]">Reserved for those who seek the
+                    <p class=" text-[18px] leading-[28px] mb-[64px]">Reserved for those who seek the
                         extraordinary. </p>
                 </div>
-                <div class="flex items-end  ">
+                <div class="flex items-end">
                     <a href="#"
                         class="capitalize flex justify-center font-bold items-center gap-2 text-primaryAccent group">view
-                        all
-                        collections
+                        allcollections
                         <img src="./assets/image/popularDistination/arrow.svg"
                             class="transition-transform group-hover:translate-x-3 duration-300" /></a>
                 </div>
             </div>
 
-            <div class="cards grid  grid-cols-1 md:grid-cols-3 gap-[40px]">
+            <div class="cards grid  grid-cols-1 md:grid-cols-3 gap-[40px] ">
 
 
                 <div class="card flex flex-col gap-[8px] overflow-hidden group">
                     <div class=""><img src="./assets/image/popularDistination/villaObsidian.webp"
-                            class="w-full object-cover hoverImage" />
+                            class="w-full h-full object-cover hoverImage" />
 
                     </div>
                     <div class="flex justify-between items-end pt-[16px]">
@@ -223,16 +253,18 @@
             <div class="grid  grid-cols-1 md:grid-cols-2 gap-[64px]">
                 <div class="relative flex flex-col justify-center"><img
                         src="./assets/image/lexuryExperience/lexuryExperiences.png" alt="lexuryExperiences"
-                        class="rounded-[3rem]" />
+                        class="rounded-[3rem] object-cover w-full h-full" />
                     <div
-                        class="absolute -bottom-10 -right-10 w-64 h-64 bg-white/10 backdrop-blur border border-white/20  rounded-[2rem] p-8 hidden lg:block">
-                        <p class=" text-highlights font-serif text-4xl mb-2 italic">98%</p>
-                        <p class=" text-[#E5E2E1] text-sm uppercase tracking-widest font-bold">Member Retention </p>
+                        class="absolute -bottom-10 -right-10 w-64 h-64 bg-white/10 backdrop-blur border border-white/20  rounded-3xl p-8 hidden lg:block">
+                        <p class=" text-highlights font-serif text-4xl leading-[40px] mb-2 italic">98%</p>
+                        <span
+                            class=" text-[14px] leading-[20px] tracking-[1.4px] uppercase tracking-widest font-bold">Member
+                            Retention </span>
                         <div class="w-12 h-1 bg-highlights mt-4"></div>
                     </div>
                 </div>
                 <div class="flex  flex-col gap-[31.3px]">
-                    <h2 class="font-serif text-[4px] md:text-[60px]">Life's Greatest <span
+                    <h2 class="font-serif text-[40px] md:text-[60px]">Life's Greatest <span
                             class=" italic text-purple-300">Vantage
                             Points.</span>
                     </h2>
@@ -243,39 +275,40 @@
                     <ul class="flex flex-col gap-[24px]">
                         <div class="flex items-center gap-[16px]">
                             <img src="./assets/image/lexuryExperience/airplaneIcon.webp" alt="airplaneIcon" />
-                            <p class="text-[18px] leading-[8px] text-[#E5E2E1]">Global Private Charters</p>
+                            <p class="text-[18px] leading-[8px]">Global Private Charters</p>
                         </div>
                         <div class="flex items-center gap-[16px]">
                             <img src="./assets/image/lexuryExperience/directionBoatIcon.webp" alt="directionBoatIcon" />
-                            <p class="text-[18px] leading-[8px] text-[#E5E2E1]">Off-Market Villa Access</p>
+                            <p class="text-[18px] leading-[8px] ">Off-Market Villa Access</p>
                         </div>
                         <div class="flex items-center gap-[16px]">
                             <img src="./assets/image/lexuryExperience/conciergeIcon.webp" alt="conciergeIcon" />
-                            <p class="text-[18px] leading-[8px] text-[#E5E2E1]">24/7 Digital Concierge</p>
+                            <p class="text-[18px] leading-[8px]">24/7 Digital Concierge</p>
                         </div>
                     </ul>
 
                     <button
-                        class=" capitalize w-fit font-bold px-10 py-4 border-2 rounded-full text-primaryAccent border-primaryAccent/15 hoverButton hover:bg-white/5">explore
+                        class=" capitalize w-fit font-bold text-[16px] leading-[24px] px-10 py-4 border-2 rounded-full text-primaryAccent border-primaryAccent/15 hoverButton hover:bg-white/5">explore
                         membership</button>
                 </div>
             </div>
         </section>
 
-        <section class="newSletter   ">
+        <section class="newSletter">
             <div class="max-w-7xl mx-auto px-8 py-[128px] md:px-[50px] lg:px-[128px]  ">
                 <div
-                    class="max-w-5xl mx-auto lg:py-[79.67px] md:py-[50px] py-[40px] px-5 md:px-[60px] lg:px-[80px] border-4  border-[#80d1f6] bg-[#1b1b1b] rounded-3xl text-center ">
-                    <div class="flex flex-col justify-center items-center gap-[18px] md:gap-[24px] text-[#E5E2E1]">
+                    class="max-w-5xl mx-auto lg:py-[79.67px] md:py-[50px] py-[40px] px-5 md:px-[60px] lg:px-[80px] border-4  border-primaryAccent bg-[#1b1b1b] rounded-3xl text-center ">
+                    <div class="flex flex-col justify-center items-center gap-[18px] md:gap-[24px] ">
                         <h2 class=" text-[35px] md:text-[48px] font-serif font-bold leading-[48px] w-full">Receive the
                             Navigator's Log</h2>
-                        <p class="text-[16px]  md:text-[18px] max-w-lg mx-auto w-full">Join our inner circle for
+                        <p class="text-[16px]  md:text-[18px] max-w-lg mx-auto w-full leading-[28px]">Join our inner
+                            circle for
                             exclusive early access to seasonal charters and private island pop-ups.</p>
                         <form class="w-full pt-[16px] flex flex-col md:flex-row max-w-lg mx-auto gap-[16px]">
                             <input type="text" placeholder="Your email adress"
-                                class="flex-grow  border-none rounded-full px-8 py-4 focus:ring-2 focus:ring-primary outline-none bg-[#363535]" />
+                                class="flex-grow  border-none rounded-full px-8 py-4 focus:ring-2 focus:ring-primary outline-none bg-secondaryGray" />
                             <button
-                                class="border-2 rounded-[3rem] px-[40px] py-[16px] font-bold text-black bg-primaryAccent hoverButton">subscribe</button>
+                                class="border-2 rounded-4xl text-[16px] leading-[24px] px-[40px] py-[16px] font-bold text-black bg-primaryAccent hoverButton">subscribe</button>
                         </form>
                         <p class="text-[12px] uppercase text-[#4a4949] font-bold"> Reserved for the discerning. No spam.
                         </p>
