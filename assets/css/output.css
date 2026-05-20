@@ -2314,6 +2314,9 @@
   .p-\[48px\] {
     padding: 48px;
   }
+  .p-\[71\.68px\] {
+    padding: 71.68px;
+  }
   .p-\[80px\] {
     padding: 80px;
   }
@@ -2340,6 +2343,12 @@
   }
   .px-\[2\] {
     padding-inline: 2;
+  }
+  .px-\[2px\] {
+    padding-inline: 2px;
+  }
+  .px-\[5px\] {
+    padding-inline: 5px;
   }
   .px-\[8px\] {
     padding-inline: 8px;
@@ -2379,6 +2388,9 @@
   }
   .px-\[32px\] {
     padding-inline: 32px;
+  }
+  .px-\[35px\] {
+    padding-inline: 35px;
   }
   .px-\[40px\] {
     padding-inline: 40px;
@@ -2485,6 +2497,9 @@
   .py-\[64px\] {
     padding-block: 64px;
   }
+  .py-\[71\.68px\] {
+    padding-block: 71.68px;
+  }
   .py-\[71px\] {
     padding-block: 71px;
   }
@@ -2520,6 +2535,9 @@
   }
   .pt-\[8px\] {
     padding-top: 8px;
+  }
+  .pt-\[10px\] {
+    padding-top: 10px;
   }
   .pt-\[16px\] {
     padding-top: 16px;
@@ -4280,9 +4298,19 @@
       padding-inline: calc(var(--spacing) * 12);
     }
   }
+  .md\:px-\[0px\] {
+    @media (width >= 48rem) {
+      padding-inline: 0px;
+    }
+  }
   .md\:px-\[24px\] {
     @media (width >= 48rem) {
       padding-inline: 24px;
+    }
+  }
+  .md\:px-\[30px\] {
+    @media (width >= 48rem) {
+      padding-inline: 30px;
     }
   }
   .md\:px-\[48px\] {
@@ -4528,6 +4556,11 @@
       max-width: 65;
     }
   }
+  .lg\:max-w-\[70\%\] {
+    @media (width >= 64rem) {
+      max-width: 70%;
+    }
+  }
   .lg\:max-w-\[75\%\] {
     @media (width >= 64rem) {
       max-width: 75%;
@@ -4561,6 +4594,11 @@
   .lg\:px-0 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:px-\[76px\] {
+    @media (width >= 64rem) {
+      padding-inline: 76px;
     }
   }
   .lg\:px-\[80px\] {
