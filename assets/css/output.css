@@ -2314,9 +2314,6 @@
   .p-\[48px\] {
     padding: 48px;
   }
-  .p-\[71\.68px\] {
-    padding: 71.68px;
-  }
   .p-\[80px\] {
     padding: 80px;
   }
@@ -2497,9 +2494,6 @@
   .py-\[64px\] {
     padding-block: 64px;
   }
-  .py-\[71\.68px\] {
-    padding-block: 71.68px;
-  }
   .py-\[71px\] {
     padding-block: 71px;
   }
@@ -2535,9 +2529,6 @@
   }
   .pt-\[8px\] {
     padding-top: 8px;
-  }
-  .pt-\[10px\] {
-    padding-top: 10px;
   }
   .pt-\[16px\] {
     padding-top: 16px;
@@ -3955,9 +3946,29 @@
       gap: 10px;
     }
   }
+  .max-sm\:px-\[2\] {
+    @media (width < 40rem) {
+      padding-inline: 2;
+    }
+  }
   .max-sm\:px-\[24px\] {
     @media (width < 40rem) {
       padding-inline: 24px;
+    }
+  }
+  .max-sm\:px-\[25px\] {
+    @media (width < 40rem) {
+      padding-inline: 25px;
+    }
+  }
+  .max-sm\:px-\[40px\] {
+    @media (width < 40rem) {
+      padding-inline: 40px;
+    }
+  }
+  .max-sm\:px-\[px\] {
+    @media (width < 40rem) {
+      padding-inline: px;
     }
   }
   .max-sm\:hover\:opacity-60 {
@@ -4554,11 +4565,6 @@
   .lg\:max-w-\[65\] {
     @media (width >= 64rem) {
       max-width: 65;
-    }
-  }
-  .lg\:max-w-\[70\%\] {
-    @media (width >= 64rem) {
-      max-width: 70%;
     }
   }
   .lg\:max-w-\[75\%\] {
