@@ -19,7 +19,7 @@
 
 <body>
     <header
-        class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-10 py-4 max-w-7xl mx-auto rounded-full shadow-[0_8px_50px_rgba(80,120,255,0.08),0_8px_50px_rgba(0,120,255,0.1)] bg-primaryBackground/60 backdrop-blur-[20px]">
+        class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-5 md:px-10 py-2 md:py-4 max-w-7xl mx-auto rounded-full shadow-[0_8px_50px_rgba(80,120,255,0.08),0_8px_50px_rgba(0,120,255,0.1)] bg-primaryBackground/60 backdrop-blur-[20px]">
 
         <p class="text-highlights  text-2xl italic font-tinos lg:text-nowrap">ETHEREAL NAVIGATOR</p>
 
@@ -33,25 +33,26 @@
             <li><a href="./contactPage.html" class="text-primaryAccent font-bold border-b-2 hoverA">Contact</a></li>
         </ul>
 
-        <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton" onclick="window.location.href='../assets/booking.html'">Book Exclusive Trip</button>
+        <button class="bg-primary rounded-full px-4 md:px-6  py-1.5 md:py-2.5 font-medium hoverButton" onclick="window.location.href='../assets/booking.html'">Book Exclusive Trip</button>
+
     </header>
 
     <main>
         <section
-            class="hero  max-w-7xl mx-auto px-[80px] md:px-[180px] lg:px-[216.5px] mt-[160px] text-center mb-[96px] ">
+            class="hero  max-w-7xl mx-auto px-[60px] md:px-[180px] lg:px-[216.5px] mt-[160px] text-center mb-[96px] ">
             <span class="text-[12px] leading-[16px] tracking-[3.6px] text-highlights">INQUIRE WITHIN</span>
-            <h1 class="text-[30px] sm:text-[50px] md:text-[60px] lg:text-[72px] text-center font-serif mt-[16px]">Begin
+            <h1 class="text-[35px] md:text-[60px] lg:text-[72px] text-center font-serif mt-[16px]">Begin
                 Your <span class="text-primaryAccent">Unforgettable
                 </span>Journey </h1>
 
         </section>
 
-        <section class="contactForm max-w-7xl mx-auto px-[48px] my-[96px] flex flex-col lg:flex-row gap-[48px]">
+        <section class="contactForm max-w-7xl mx-auto px-[20px] md:px-[48px] my-[96px] flex flex-col lg:flex-row gap-[48px]">
             <aside class="lg:w-[362.67px] w-full ">
                 <h3 class="font-serif text-[24px] leading-[32px] mb-[32px]">Headquarters</h3>
                 <div class="flex flex-col gap-[24px]">
                     <div class="flex items-start gap-[16px]">
-                        <img src="../assets/image/contactP/positionIcon.svg" />
+                        <img src="../assets/image/contactP/positionIcon.svg" alt="positionIcon"/>
                         <div class="">
                             <p class="text-[16px] leading-[24px] font-medium">The Gilded Pavilion</p>
                             <span class="text-[14px] leading-[16px] ">88 Celestial Way, Mayfair London, W1K 2AU</span>
@@ -59,11 +60,11 @@
                     </div>
 
                     <div class="flex items-start gap-[16px]">
-                        <img src="../assets/image/contactP/phoneIcon.svg" />
+                        <img src="../assets/image/contactP/phoneIcon.svg" alt="phoneIcon"/>
                         <p class="text-[16px] leading-[24px] font-medium">+44 (0) 20 7946 0120</p>
                     </div>
                     <div class="flex items-start gap-[16px]">
-                        <img src="../assets/image/contactP/massageIcon.svg" />
+                        <img src="../assets/image/contactP/massageIcon.svg" alt="massageIcon"/>
                         <p class="text-[16px] leading-[24px] font-medium max-xs:wrap-anywhere">
                             concierge@etherealnavigator.com</p>
                     </div>
@@ -81,14 +82,14 @@
 
                     </div>
                     <div class="relative  rounded-2xl group overflow-hidden">
-                        <img src="../assets/image/contactP/darkmapLondon.webp"
+                        <img src="../assets/image/contactP/darkmapLondon.webp" alt="darkmapLondon"
                             class="w-full h-[256px]  rounded-2xl hoverImage opacity-40" />
                         <span
                             class="absolute bottom-5 left-4 text-[10px] leading-[15px] px-[13px] py-[4.5px] tracking-[1.5px] rounded-4xl bg-secondaryGray/80 text-highlights">VIEW
                             LIVE MAP</span>
                     </div>
             </aside>
-            <div class="contactForm p-[48px] relative bg-primaryGray shadow-4xl overflow-hidden flex-1 rounded-3xl">
+            <div class="contactForm px-[16px] md:px-[48px] py-[48px] relative bg-primaryGray shadow-4xl overflow-hidden flex-1 rounded-3xl">
                 <div class="absolute -top-24 -right-24 w-64 h-64 bg-white/10 blur-[100px] rounded-full"></div>
                 <h2 class="text-[30px] leading-[36px] font-serif mb-[32px]">Reservation Inquiry</h2>
                 <form action="" class="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
@@ -122,7 +123,7 @@
                     </div>
                     <div class="md:col-span-2 flex justify-end">
                         <button
-                            class="text-black text-[14px] leading-[20px] tracking-[1.4px] font-bold mt-[16px] px-[40px] py-[16px] bg-highlights rounded-full hover:shadow-[0_0px_10px_rgba(255,255,0,0.7)] cursor-pointer transition-all duration-400">SUBMIT
+                            class="text-black text-[14px] leading-[20px] tracking-[1.4px] font-bold mt-[16px] px-[20px] md:px-[40px] py-[16px] bg-highlights rounded-full hover:shadow-[0_0px_10px_rgba(255,255,0,0.7)] cursor-pointer transition-all duration-400">SUBMIT
                             INQUIRY</button>
                     </div>
                 </form>

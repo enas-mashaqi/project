@@ -20,7 +20,7 @@
 
     <body>
         <header
-            class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-10 py-4 max-w-7xl mx-auto rounded-full shadow-[0_8px_50px_rgba(80,120,255,0.08),0_8px_50px_rgba(0,120,255,0.1)] bg-primaryBackground/60 backdrop-blur-[20px]">
+            class="fixed top-[24px] left-0 right-0 z-50 flex items-center justify-between px-6  md:px-10 py-2 md:py-4 max-w-7xl mx-auto rounded-full shadow-[0_8px_50px_rgba(80,120,255,0.08),0_8px_50px_rgba(0,120,255,0.1)] bg-primaryBackground/60 backdrop-blur-[20px]">
 
             <p class="text-highlights  text-2xl italic font-tinos lg:text-nowrap">ETHEREAL NAVIGATOR</p>
 
@@ -34,7 +34,7 @@
                 <li><a href="./contactPage.html" class="hoverA">Contact</a></li>
             </ul>
 
-            <button class="bg-primary rounded-full px-6 py-2.5 font-medium hoverButton" onclick="window.location.href='../assets/booking.html'">Book Exclusive Trip</button>
+            <button class="bg-primary rounded-full px-4 md:px-6 py-1.5 md:py-2.5 font-medium hoverButton" onclick="window.location.href='../assets/booking.html'">Book Exclusive Trip</button>
 
         </header>
         <main class="min-h-screen">
@@ -114,17 +114,17 @@
                                     <div
                                         class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
                                         <p class="text-sm">Private Charter</p>
-                                        <img src="../assets/image/destinationP/aside/plane.svg" />
+                                        <img src="../assets/image/destinationP/aside/plane.svg" alt="plane"/>
                                     </div>
                                     <div
                                         class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
                                         <p class="text-sm">Wellness Retreat</p>
-                                        <img src="../assets/image/destinationP/aside/flower.svg" />
+                                        <img src="../assets/image/destinationP/aside/flower.svg" alt="flower"/>
                                     </div>
                                     <div
                                         class="flex justify-between py-[8px] px-[8px] rounded-lg hover:bg-secondaryGray transition-all duration-300">
                                         <p class="text-sm">Art & Culture</p>
-                                        <img src="../assets/image/destinationP/aside/art.svg" />
+                                        <img src="../assets/image/destinationP/aside/art.svg" alt="art"/>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                     <div class="recommended hidden lg:block mt-[40px] ">
                         <h4 class="text-[18px] font-serif leading-7 mb-[24px]">Recommended </h4>
                         <div class="card group overflow-hidden rounded-xl">
-                            <img src="../assets/image/destinationP/recomended/anoNagThailand.webp"
+                            <img src="../assets/image/destinationP/recomended/anoNagThailand.webp" alt="alpineLodge"
                                 class="rounded-xl hoverImage object-cover " />
                             <div class="mt-[16px]">
                                 <h5
@@ -147,7 +147,7 @@
                             </div>
                         </div>
                         <div class="card mt-[16px] group overflow-hidden rounded-xl">
-                            <img src="../assets/image/destinationP/recomended/almalfiCoastItaly.webp"
+                            <img src="../assets/image/destinationP/recomended/almalfiCoastItaly.webp" alt="almalfiCoastItaly"
                                 class=" hoverImage object-cover" />
                             <div class="mt-[16px]">
                                 <h5
@@ -161,7 +161,7 @@
                 </aside>
                 <!-- bg-amber-950-->
                 <div class="gridResult flex-1">
-                    <div class="flex justify-between items-center">
+                    <div class="flex flex-col md:flex-row justify-between items-center">
                         <p class="text-[16px]">Showing 12 of 84 destinations</p>
                         <div class="flex">
                             <p class="text-sm mr-[16px]">SORT BY:</p>
@@ -176,8 +176,8 @@
 
                         <div
                             class="card bg-primaryGray relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
-                            <img src="../assets/image/destinationP/mainContentArea/almahaDesert.webp"
-                                class="h-80 hoverImage object-cover opacity-100  " />
+                            <img src="../assets/image/destinationP/mainContentArea/almahaDesert.webp" alt="almahaDesert"
+                                class="h-80 hoverImage object-cover opacity-100" />
                             <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
                                 <span>VIP EXCLUSIVE</span>
                             </div>
@@ -208,7 +208,7 @@
 
                         <div
                             class="card bg-primaryGray relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
-                            <img src="../assets/image/destinationP/mainContentArea/alpineLodge.webp"
+                            <img src="../assets/image/destinationP/mainContentArea/alpineLodge.webp" alt="alpineLodge"
                                 class="h-80 hoverImage object-cover opacity-100  " />
                             <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
                                 <span>VIP EXCLUSIVE</span>
@@ -239,7 +239,7 @@
 
                         <div
                             class="card bg-[#1e1e1e] relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
-                            <img src="../assets/image/destinationP/mainContentArea/katsuraEstate.webp"
+                            <img src="../assets/image/destinationP/mainContentArea/katsuraEstate.webp" alt="katsuraEstate"
                                 class="h-80 hoverImage object-cover opacity-100  " />
                             <div class="absolute top-[280px] left-[24px] flex gap-[5px]">
                                 <p class="text-highlights font-bold">★ ★ ★ ★ ★ </p><span>4.8</span>
@@ -267,7 +267,7 @@
 
                         <div
                             class="card bg-primaryGray relative flex flex-col rounded-xl group overflow-hidden hover:shadow-[0_20px_40px_rgba(137,206,255,0.1)] transition-all duration-400">
-                            <img src="../assets/image/destinationP/mainContentArea/azureIsland.webp"
+                            <img src="../assets/image/destinationP/mainContentArea/azureIsland.webp" alt="azureIsland"
                                 class="h-80 hoverImage object-cover opacity-100  " />
                             <div class="absolute top-[20px] right-[28px] bg-highlights rounded-4xl px-[12px] py-[4px]">
                                 <span>VIP EXCLUSIVE</span>
@@ -320,12 +320,12 @@
 
                     <a class="flex gap-[6px] text-primaryAccent font-bold"><span class="text-[16px] leading-[24px]">View
                             Seasonal Lookbook</span> <img
-                            src="../assets/image/destinationP/trendingThisSeason/arrowToUp.svg" /></a>
+                            src="../assets/image/destinationP/trendingThisSeason/arrowToUp.svg" alt="arrowToUp"/></a>
                 </div>
 
                 <div class="mt-[48px] grid grid-cols-1 md:grid-cols-4 gap-6 h-[600px]">
                     <div class=" relative md:col-span-2 md:row-span-2 rounded-2xl group overflow-hidden ">
-                        <img src="../assets/image/destinationP/trendingThisSeason/tokyo.webp"
+                        <img src="../assets/image/destinationP/trendingThisSeason/tokyo.webp" alt="tokyo"
                             class="opacity-80 object-cover hoverImage w-full h-full" />
                         <div class="absolute bottom-0 left-0 p-[24px] "><span
                                 class="text-[16px] leading-[24px] text-primaryAccent font-bold">CULTURAL
@@ -335,19 +335,19 @@
                     </div>
 
                     <div class="relative rounded-2xl group overflow-hidden ">
-                        <img src="../assets/image/destinationP/trendingThisSeason/coastalNormandy.webp"
+                        <img src="../assets/image/destinationP/trendingThisSeason/coastalNormandy.webp" alt="coastalNormandy"
                             class=" opacity-80 object-cover hoverImage w-full h-full " />
                         <p class="absolute bottom-0 left-0 text-[18px] leading-[32px] font-bold font-serif p-[24px] ">
                             Coastal Normandy</p>
                     </div>
                     <div class="relative rounded-2xl group overflow-hidden ">
-                        <img src="../assets/image/destinationP/trendingThisSeason/ionianYachting.webp"
+                        <img src="../assets/image/destinationP/trendingThisSeason/ionianYachting.webp" alt="ionianYachting"
                             class=" opacity-80 object-cover hoverImage w-full h-full" />
                         <p class="absolute bottom-0 left-0 text-[18px] leading-[32px] font-bold font-serif p-[24px] ">
                             Ionian Yachting</p>
                     </div>
                     <div class="md:col-span-2 relative rounded-2xl group overflow-hidden"><img
-                            src="../assets/image/destinationP/trendingThisSeason/scandinavianRetreats.webp"
+                            src="../assets/image/destinationP/trendingThisSeason/scandinavianRetreats.webp" alt="scandinavianRetreats"
                             class="opacity-80  object-cover hoverImage w-full h-full" />
                         <p class="absolute bottom-0 left-0 text-[20px] leading-[32px] font-bold font-serif p-[24px] ">
                             Scandinavian Retreats</p>
